@@ -14,7 +14,7 @@ const app_routes: Routes=[
     // Ruta de la subpágina item (segunda sección)
     { path: "item", component: ItemComponent},
 // cuando aparece cualquier otra cosa lo redirige al local host otra vez, de vuelta a la página principal.
-    { path: "**", pathMatch:"full" ,redirectTo: ""},
+    { path: "**", pathMatch:"full" ,redirectTo: "inici"},
 ];
 
 // con forRoot revisa todo el app_routes para reconocer cada ruta.
